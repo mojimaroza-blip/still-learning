@@ -1,4 +1,4 @@
-
+/* BACKGROUND */
 body {
   backgound-color: linear-gradient(right to, blue, yellow, green);
   margin: 0;
@@ -38,7 +38,7 @@ h2 {
 }
 /* PARAGRAPH */
 p {
-  color: white;
+  color: black;
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
 }
 /* INDIVIDUAL CARDS */
 .card { 
-  background-color: green;
+  background-color: lightblue;
  padding: 25px;
   border-radius: 14px;
   margin: 0;
