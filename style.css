@@ -41,5 +41,25 @@ p {
   color: white;
 }
 
-  
+footer {
+  background-color: red;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+/* CONTAINER BOX */
+.container {
+  background-color: yelllow;
+  margin: 0;
+  padding: 20px 25px 30px;
+  border-radius: 15px;
+  display: flex;
+}
+/* INDIVIDUAL CARDS */
+.card { 
+  background-color: green;
+ padding: 25px;
+  border-radius: 14px;
+  margin: 0;
+}
 
