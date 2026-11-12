@@ -1,6 +1,6 @@
 /* BACKGROUND */
 body {
-  backgound-color: linear-Gradient(right to, blue, yellow, green);
+  background-color: linear-gradient(right to, blue, yellow, green);
   margin: 0;
   text-align: center;
   font-family: Arial;
@@ -21,7 +21,7 @@ nav a{
   color:red;
   margin: 0;
   text-decoration: none;
-  padding: 20px
+  padding: 20px;
 }
 /* NAVIGATION HOVER */
 
@@ -32,7 +32,7 @@ nav a:hover {
 h1{
   color: black;
   text-align: center;
-  padding: 20px
+  padding: 20px;
 }
 h2 { 
   color: black;
@@ -50,12 +50,13 @@ footer {
 }
 /* CONTAINER BOX */
 .container {
-  background-color: yelllow;
+  background-color: yellow;
   margin: 0;
   padding: 20px 25px 30px;
   border-radius: 15px;
   display: flex;
   min-height: 50px;
+  flex-wrap: wrap;
 }
 /* INDIVIDUAL CARDS */
 .card { 
@@ -64,6 +65,7 @@ footer {
   border-radius: 14px;
   margin: 0;
   min-height: 20px;
+  flex-wrap: flex;
   
 }
 
