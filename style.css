@@ -1,71 +1,77 @@
 /* BACKGROUND */
 body {
-  background-color: linear-gradient(right to, blue, yellow, green);
-  margin: 0;
-  text-align: center;
-  font-family: Arial;
-  color: black;
+    background: linear-gradient(to right, blue, yellow, green);
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
 }
 
 /* NAVIGATION */
 nav {
-  background-color: green;
-  padding: 25px;
-  text-align: center;
-  color: black;
-  margin: 0;
+    background-color: green;
+    padding: 25px;
+    text-align: center;
 }
+
 /* NAVIGATION LINKS */
-
-nav a{
-  color:red;
-  margin: 0;
-  text-decoration: none;
-  padding: 20px;
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
 }
+
 /* NAVIGATION HOVER */
+nav a:hover {
+    color: yellow;
+}
 
-nav a:hover { 
-  color:red;
-} 
 /* HEADINGS */
-h1{
-  color: black;
-  text-align: center;
-  padding: 20px;
-}
-h2 { 
-  color: black;
-}
-/* PARAGRAPH */
-p {
-  color: black;
+h1 {
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
 
-footer {
-  background-color: red;
-  color: black;
-  text-align: center;
-  padding: 20px;
+h2 {
+    color: black;
 }
+
+/* PARAGRAPHS */
+p {
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 /* CONTAINER BOX */
 .container {
-  background-color: yellow;
-  margin: 0;
-  padding: 20px 25px 30px;
-  border-radius: 15px;
-  display: flex;
-  min-height: 50px;
-  flex-wrap: wrap;
-}
-/* INDIVIDUAL CARDS */
-.card { 
-  background-color: lightblue;
-  padding: 25px;
-  border-radius: 14px;
-  margin: 0;
-  min-height: 20px;
-  flex-wrap: flex;
-  
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
+/* INDIVIDUAL CARDS */
+.card {
+    background-color: lightblue;
+    padding: 25px;
+    border-radius: 14px;
+    margin: 0;
+    min-height: 20px;
+    flex: 1;
+    min-width: 200px;
+}
